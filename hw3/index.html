@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&family=Montserrat&display=swap" rel="stylesheet">
+        <title>Semantic tags HTML </title>
+</head>
+<body>
+    <header>
+        <!-- Стиль шапки и списка -->
+        <ul class="main-menu">
+            <li class="active"><a href="#url">Головна</a></li>
+            <li class="menu-children">
+                <a href="#url">CSS</a>
+                <ul>
+                    <li><a href="#url">Основи</a></li>
+                    <li><a href="#url">FlexBox</a></li>
+                    <li class="menu-children">
+                        <a href="#url">Пiдроздiл</a>
+                        <ul>
+                            <li><a href="#url">Настрiй</a></li>
+                            <li><a href="#url">Вогонь</a></li>           
+                        </ul>
+                    </li>           
+                </ul>
+            </li>
+            <li><a href="#url">HTML5</a></li>
+            <li><a href="#url">Зворотнiй Звязок</a></li>
+            <li><a href="#url"></a></li>       
+        </ul>
+    </header>
+    <h1>HTML5 Элементы Семантики</h1>
+    <p class="paragraph">Семантичний елемент чітко описує його значення як для браузера, так i для розробника.</p>
+    <p class="paragraph">Приклади не семантичних елементів: <b>div</b> i <b>span</b>- нічого не говорить про його вміст.</p>
+     <h2>Підтримка браузерів</h2>
+     <img class="decor-icon" src="img/browsers.jpg" alt="">
+     <p class="paragraph">Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".Прочитайте про це в <a class="link_html" href="http://programming.in.ua/web-design/html/164-support-html5.html" target="_blank">підтримці браузера HTML5</a></p>
+    <h2>Нові семантичні елементи в HTML5</h2>
+    <p class="paragraph">HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+    <ul class="list__item">
+        <li>section</li>
+        <li>artice</li>
+        <li>header</li>
+        <li>footer</li>
+    </ul>
+    <!-- Extra Task: Add iframe -->
+    <h2>Сторiнка першого CV</h2>
+    <iframe src="https://graceful-zabaione-def275.netlify.app" width="1100" height="600"></iframe>
+</body>
+</html>
