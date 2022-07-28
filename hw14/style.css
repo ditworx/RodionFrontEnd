@@ -1,0 +1,245 @@
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 1440px;
+    height: auto;
+    background: #FFFFFF;
+}
+/* Header-------------------------------------------------------------------------------------- */
+.header {
+    max-width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo {
+    width: 170px;
+    height: 60px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-left: 206px;
+    padding-right:266px;
+}
+
+.menu__item {
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+
+.menu__link:hover {
+    color: #18B5DC;
+    transition: 0.3s;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn__text {
+    width: 130px;
+    height: 42px;
+    border: 1px solid #3C3C3C;
+    text-transform: uppercase;
+}
+
+.btn__text:hover {
+    color: #FFFFFF;
+    background: #18B5DC;
+    transition: 0.3s;
+}
+/* Main Section----------------------------------------------------------------------------- */
+.main {
+    max-width: 1440px;
+    height: 833px;
+    background: #F6F6F6;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-line__logo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main__title {
+    text-transform: uppercase;
+    width: 368px;
+    height: 34px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    color: #3C3C3C;
+    margin: 150px auto 64px;
+}
+
+.main__subtitle {
+    display: flex;
+    width: 570px;
+    height: 42px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.main-photo-block {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 135px 213px 135px;
+    gap: 30px;
+}
+
+.name-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social-block__name {
+    width: 170px;
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+}
+
+.social-block__job {
+    width: 170px;
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+/* Footer------------------------------------------------------- */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 260px;
+    background: #FFFFFF;
+}
+
+.footer__img {
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 21px;
+
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu__item {
+    padding-right: 30px;
+}
+
+.footer-menu__item {
+    height: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.footer-menu__link {
+    text-decoration: none;
+}
+
+.footer-menu__link:hover {
+    color: #18B5DC;
+    transition: 0.3s;
+}
+
+.footer_social__logo {
+    display: flex;
+}
+
+.footer-social-links {
+    padding-top: 28px;
+    padding-bottom: 40px;
+}
+/* Extra Effects Hover------------------------------------------------- */
+a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }
