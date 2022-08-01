@@ -162,12 +162,12 @@ body {
     text-align: center;
 }
 
-.main-btn:hover {
+/* .main-btn:hover {
     transition: 0.3s;
     border: 1px solid #708d06;
     background-color: #fff;
     color: #000000;
-}
+} */
 
 .left-main-section {
     display: flex;
