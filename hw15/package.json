@@ -1,0 +1,24 @@
+{
+  "name": "hellofrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliid3/HelloFrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaliid3/HelloFrontEnd/issues"
+  },
+  "homepage": "https://github.com/vitaliid3/HelloFrontEnd#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  },
+  "description": ""
+}
